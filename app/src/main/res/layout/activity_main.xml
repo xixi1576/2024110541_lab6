@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/page_bg"
+    android:orientation="vertical">
+
+    <!-- 应用标题：姓名 + 学号 -->
+    <TextView
+        style="@style/LabTitleText"
+        android:text="@string/app_name" />
+
+    <!-- 三个 Fragment 的切换标签 -->
+    <LinearLayout
+        android:id="@+id/tab_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/bar_bg"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/tab_info"
+            style="@style/LabTab"
+            android:text="@string/title_info" />
+
+        <TextView
+            android:id="@+id/tab_game2"
+            style="@style/LabTab"
+            android:text="@string/title_game2" />
+
+        <TextView
+            android:id="@+id/tab_game3"
+            style="@style/LabTab"
+            android:text="@string/title_game3" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/divider" />
+
+    <!-- Fragment 容器 -->
+    <androidx.fragment.app.FragmentContainerView
+        android:id="@+id/fragment_container"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+
+</LinearLayout>

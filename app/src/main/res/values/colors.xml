@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="text_red">#FFFF0000</color>
+    <color name="red_primary">#FFD32F2F</color>
+    <color name="bar_bg">#FFFFFFFF</color>
+    <color name="page_bg">#FFFFF6F6</color>
+    <color name="divider">#FFF0D0D0</color>
+    <color name="label_bg">#FFFFEBEE</color>
+
+    <!-- 翻牌卡片 -->
+    <color name="card_back_start">#FFEF5350</color>
+    <color name="card_back_end">#FFB71C1C</color>
+    <color name="card_back_text">#FFFFF3F3</color>
+    <color name="card_face_bg">#FFFFFFFF</color>
+    <color name="card_chosen_bg">#FFFFF3E0</color>
+    <color name="card_matched_bg">#FFF4F4F4</color>
+    <color name="card_matched_border">#FFE0E0E0</color>
+    <color name="tab_selected_bg">#FFD32F2F</color>
+    <color name="tab_selected_text">#FFFFFFFF</color>
+</resources>

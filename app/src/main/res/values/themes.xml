@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- 应用主题：无系统标题栏（标题栏由布局自绘） -->
+    <style name="Theme.Lab6" parent="@android:style/Theme.Material.Light.NoActionBar">
+        <item name="android:colorAccent">@color/red_primary</item>
+        <item name="android:textColorPrimary">@color/text_red</item>
+        <item name="android:textColorSecondary">@color/text_red</item>
+        <item name="android:windowBackground">@color/page_bg</item>
+        <item name="android:windowLightStatusBar">true</item>
+    </style>
+
+    <!-- 顶部标题栏 -->
+    <style name="LabTitleText">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">@color/bar_bg</item>
+        <item name="android:fitsSystemWindows">true</item>
+        <item name="android:paddingStart">16dp</item>
+        <item name="android:paddingTop">12dp</item>
+        <item name="android:paddingEnd">16dp</item>
+        <item name="android:paddingBottom">12dp</item>
+        <item name="android:textColor">@color/text_red</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <!-- 顶部三个 Fragment 切换标签 -->
+    <style name="LabTab">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:gravity">center</item>
+        <item name="android:paddingTop">10dp</item>
+        <item name="android:paddingBottom">10dp</item>
+        <item name="android:textColor">@color/text_red</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:background">@color/bar_bg</item>
+    </style>
+
+    <!-- 表单标签 -->
+    <style name="LabFormLabel">
+        <item name="android:layout_width">64dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/text_red</item>
+        <item name="android:textSize">15sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <!-- 表单输入框 -->
+    <style name="LabFormInput">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:background">@color/bar_bg</item>
+        <item name="android:padding">8dp</item>
+        <item name="android:textColor">@color/text_red</item>
+        <item name="android:textSize">15sp</item>
+        <item name="android:inputType">text</item>
+    </style>
+
+    <!-- 主要按钮 -->
+    <style name="LabButton">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:background">@color/red_primary</item>
+        <item name="android:paddingTop">10dp</item>
+        <item name="android:paddingBottom">10dp</item>
+        <item name="android:textColor">@color/tab_selected_text</item>
+        <item name="android:textSize">15sp</item>
+    </style>
+
+    <!-- 翻牌卡片按钮 -->
+    <style name="LabCard">
+        <item name="android:gravity">center</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/card_back_text</item>
+        <item name="android:background">@drawable/bg_card_back</item>
+    </style>
+
+</resources>

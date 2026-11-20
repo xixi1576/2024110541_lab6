@@ -1,0 +1,53 @@
+<resources>
+    <string name="app_name">杨文辉2024110541</string>
+
+    <!-- 标题与标签页 -->
+    <string name="title_info">个人信息</string>
+    <string name="title_game2">两张牌翻牌游戏</string>
+    <string name="title_game3">三张牌翻牌游戏</string>
+
+    <!-- 个人信息 -->
+    <string name="label_name">姓名</string>
+    <string name="label_student_id">学号</string>
+    <string name="label_college">学院</string>
+    <string name="label_major">专业</string>
+    <string name="label_hobby">爱好</string>
+    <string name="label_teacher">指导老师</string>
+    <string name="action_save">保存信息</string>
+    <string name="action_clear_history">清空历史</string>
+    <string name="profile_tip">个人信息以序列化方式保存，退出应用后再次打开会自动恢复。</string>
+    <string name="history_title">历史记录（序列化保存）</string>
+    <string name="history_empty">暂无历史记录</string>
+    <string name="profile_saved_format">已保存：%1$s</string>
+    <string name="profile_history_item_format">%1$s　姓名：%2$s　学号：%3$s　学院：%4$s　专业：%5$s</string>
+
+    <!-- 翻牌游戏 -->
+    <string name="score_format">得分：%1$d</string>
+    <string name="flip_format">翻牌：%1$d 次</string>
+    <string name="matched_format">已配对：%1$d / %2$d 组</string>
+    <string name="action_restart">重新开始</string>
+    <string name="game2_hint">两张牌翻牌游戏：每次翻开两张牌，点数相同即配对成功（+12 分）；不同则翻回（-2 分）。每翻开一张牌 -1 分。</string>
+    <string name="game3_hint">三张牌翻牌游戏：每次翻开三张牌，三张点数相同即配对成功（+18 分）；否则翻回（-3 分）。每翻开一张牌 -1 分。</string>
+    <string name="card_back_symbol">?</string>
+    <string name="game_history_title">最近战绩（序列化保存）</string>
+    <string name="game_history_item_format">第 %1$d 局　得分 %2$d　翻牌 %3$d 次　%4$s</string>
+    <string name="win_title">全部配对完成</string>
+    <string name="win_message_format">共 %1$d 组牌全部配对成功，翻牌 %2$d 次，最终得分 %3$d 分。\n本局战绩已保存，退出应用后仍可查看。</string>
+    <string name="win_positive">再来一局</string>
+
+    <string-array name="card_ranks">
+        <item>A</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+    </string-array>
+
+    <string-array name="card_suits">
+        <item>♠</item>
+        <item>♥</item>
+        <item>♦</item>
+        <item>♣</item>
+    </string-array>
+</resources>
